@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { azul,azulClaro } from "../../constants/styles"
 
-export const CardPost = styled.div`
+export const CardPostStyled = styled.div`
     display:flex;
     flex-direction:column;
     border: solid ${azul} 2px;

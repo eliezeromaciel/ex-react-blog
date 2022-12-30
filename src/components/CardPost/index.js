@@ -1,7 +1,8 @@
+import {CardPostStyled} from "./styles"
 export const CardPost = () => {
     return (
-        <CardPost>
+        <CardPostStyled>
             testando ovo component criado como cardpost
-        </CardPost>
+        </CardPostStyled>
     )
 }

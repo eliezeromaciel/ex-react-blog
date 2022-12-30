@@ -1,5 +1,4 @@
 import {  BrowserRouter,  Routes,   Route, } from 'react-router-dom'
-
 import { Header } from "./components/Header";
 import { Cadastro } from './components/Pages/Cadastro';
 import { Home } from "./components/Pages/Home";
@@ -7,25 +6,16 @@ import { Home } from "./components/Pages/Home";
 function App() {
   return (
     <>
-      {/* <BrowserRouter> */}
-        {/* <Header/> */}
 
-        {/* <Routes> */}
-          {/* <Route path='/' element={<Home/>}   /> */}
+      <BrowserRouter>
+        <Header/>
 
-          <Home/>
-          <Cadastro/>
+        <Routes>
+          <Route path='/' element={<Home/>}   />
+          <Route path='/cadastro' element={<Cadastro/>}   />
+        </Routes>
 
-          {/* <Route path='/cadastro' element={<Cadastro/>}   /> */}
-
-        {/* </Routes> */}
-
-
-      {/* </BrowserRouter> */}
-
-
-
-      
+      </BrowserRouter>
       
     </>
   );
